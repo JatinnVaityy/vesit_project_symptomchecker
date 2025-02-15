@@ -1,4 +1,4 @@
-import html, { riskHtmlMapper } from '../../templates/helpers';
+import html, {riskHtmlMapper} from '../../templates/helpers';
 
 const template = (context) => {
   return context.api.getRiskFactors(context.patient.age).then((risks) => {
