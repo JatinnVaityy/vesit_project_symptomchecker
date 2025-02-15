@@ -6,14 +6,14 @@ const template = (context) => {
       <div style="background: #fff; padding: 20px; border-radius: 10px; 
                   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); max-width: 600px; margin: auto;">
         <h5 style="color: #007bff; font-weight: bold; margin-bottom: 15px;">
-          <i class="fa fa-exclamation-triangle"></i> Please check all that apply to you.
+          Please check all that apply to you.
         </h5>
         <div style="font-size: 16px; color: #444;">
           <form style="display: flex; flex-direction: column; gap: 10px;">
             ${riskHtmlMapper(risks, context.commonRiskFactors)}
           </form>
           <p class="text-muted small" style="margin-top: 15px; font-size: 14px; color: #777;">
-            <i class="fa fa-info-circle" style="color: #007bff;"></i> 
+           
             Above you see the most common risk factors. Although 
             <span style="color: #28a745;">/diagnosis</span> may return questions about risk factors, 
             when implementing a symptom checker, we recommend asking the patient about common risk factors 

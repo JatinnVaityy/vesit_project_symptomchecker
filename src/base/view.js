@@ -11,7 +11,7 @@ export default class View {
   }
 
   render() {
-    this.el.innerHTML = '<p><i class="fa fa-circle-o-notch fa-spin fa-fw"></i> Loading...</p>';
+    this.el.innerHTML = '<p> Loading...</p>';
     return this.template(this.context).then((html) => {
       this.el.innerHTML = html;
       return this.bindEvents();

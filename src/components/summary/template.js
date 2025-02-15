@@ -7,7 +7,7 @@ const conditionsHtmlMapper = (conditions) => {
       <div class="col-8" style="font-weight: bold; color: #333;">
         ${condition.name}
         ${condition.probability >= 0.2
-    ? `<i class="fa fa-fw fa-eye" style="color: #007bff; margin-left: 5px;"></i>
+    ? `
              <a href="#" data-id="${condition.id}" class="explain" style="text-decoration: none; color: #007bff;">
                explain
              </a>`
@@ -32,7 +32,7 @@ const template = (context) => {
     return html`
       <div style="background: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); max-width: 600px; margin: auto;">
         <h5 style="color: #007bff; font-weight: bold; margin-bottom: 15px;">
-          <i class="fa fa-stethoscope"></i> Summary
+           Summary
         </h5>
         <div style="font-size: 16px; color: #444;">
           <p>Based on the interview, you could suffer from:</p>

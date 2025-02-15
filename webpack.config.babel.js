@@ -9,6 +9,7 @@ module.exports = {
   output: {
     path: path.join(__dirname, '/public'),
     filename: 'bundle.js',
+    publicPath: '/',
     chunkFilename: '[name].bundle.js' // Code splitting
   },
   

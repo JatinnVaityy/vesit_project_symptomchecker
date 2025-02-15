@@ -49,7 +49,7 @@ const template = (context) => {
                     " 
                     onmouseover="this.style.color='#007bff'" 
                     onmouseout="this.style.color='#444'">
-                      <i class="fa fa-fw fa-male" style="font-size: 1.5rem; color: #007bff;"></i> Male
+                       Male
                     </label>
                   </div>
 
@@ -63,7 +63,7 @@ const template = (context) => {
                     " 
                     onmouseover="this.style.color='#d63384'" 
                     onmouseout="this.style.color='#444'">
-                      <i class="fa fa-fw fa-female" style="font-size: 1.5rem; color: #d63384;"></i> Female
+                      Female
                     </label>
                   </div>
                 </div>
@@ -114,16 +114,11 @@ const template = (context) => {
               color: #666;
               margin-top: 20px;
           ">
-            <i class="fa fa-info-circle" style="color: #007bff;"></i>
+            
             The sex and age attributes are required for every request to /diagnosis.
             Typically, this is the first question you should ask in your symptom checker. 
             Read more
-            <a target="_blank" href="https://developer.infermedica.com/docs/diagnosis#sex-and-age" 
-              style="color: #007bff; font-weight: bold; text-decoration: none; transition: color 0.3s ease-in-out;"
-              onmouseover="this.style.color='#0056b3'" 
-              onmouseout="this.style.color='#007bff'">
-              here
-            </a>.
+           
           </p>
 
         </div>
